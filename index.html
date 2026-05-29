@@ -122,19 +122,19 @@
         <li><strong>Przewaga:</strong> matematyka spiralna + architektura agentowa + KARTRIX.</li>
         <li><strong>Partnerstwa:</strong> uczelnie, instytucje państwowe, sektor prywatny.</li>
       </ul>
-      <form class="contact-form" onsubmit="handleContact(event)">
+      <form class="contact-form" action="https://formspree.io/f/lacresso@gmail.com" method="POST">
         <h3>Zostaw kontakt</h3>
         <label>
           Imię i nazwisko
-          <input type="text" required />
+          <input type="text" name="name" required />
         </label>
         <label>
           E-mail
-          <input type="email" required />
+          <input type="email" name="email" required />
         </label>
         <label>
           Wiadomość
-          <textarea rows="4" placeholder="Napisz, w jakim kontekście widzisz współpracę..."></textarea>
+          <textarea name="message" rows="4" required placeholder="Napisz, w jakim kontekście widzisz współpracę..."></textarea>
         </label>
         <button type="submit">Wyślij</button>
         <p id="contact-status" class="status-msg"></p>
