@@ -1,20 +1,24 @@
-# DARTRIX-PRESENTA v1.0
+# DARTRIX-PRESENTA
 
-Jednolity system prezentacyjny ekosystemu DARTRIX (BeeLab, PASSPORTOS, NINIA TEAM, DARTRAINUP, KARTRIX).
+A concise presentation layer for the DARTRIX ecosystem.
 
-## Funkcje
+DARTRIX-PRESENTA is a demo-ready overview of the DARTRIX stack, designed for partner conversations, sales introductions, and quick internal reviews. It presents the ecosystem through practical modules and business-facing use cases.
 
-- Landing page (nauka + rynek)
-- Dashboard modułów
-- Sekcja pitchowa dla inwestorów i partnerów
-- Formularz kontaktowy (demo)
+## Focus
 
-## Uruchomienie
+- Systems architecture and automation
+- AI-enabled workflows
+- Product demos and showcase pages
+- Deployment-ready thinking
 
-1. Sklonuj repozytorium lub pobierz pliki.
-2. Otwórz `index.html` w przeglądarce.
-3. (Opcjonalnie) wrzuć na GitHub Pages / Netlify / Vercel.
+## Highlighted modules
 
-## Autor
+- BeeLab — bee health monitoring and early-warning analytics
+- PASSPORTOS — automated plant passport generation and operational integration
+- NINIA TEAM — security and monitoring concepts
+- DARTRAINUP — training and learning workflows
+- KARTRIX — interface and language layer
 
-Daniel Adrian Ratajczyk (KARTRIX) — twórca ekosystemu DARTRIX.
+## Best use
+
+Start here when sharing DARTRIX with external technical or sales contacts.
