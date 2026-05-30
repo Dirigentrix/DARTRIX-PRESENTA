@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>DARTRIX-PRESENTA v1.0 — Demo & Partner Overview</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>DARTRIX-PRESENTA v1.0</h1>
+      <p class="subtitle">
+        A concise presentation layer for DARTRIX: systems architecture, automation,
+        AI, CI/CD, and product demos.
+      </p>
+      <div class="hero-buttons">
+        <button onclick="scrollToSection('modules')">Zobacz moduły</button>
+        <button onclick="scrollToSection('dashboard')">Dashboard</button>
+        <button onclick="scrollToSection('contact')">Kontakt / Pitch</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="overview" class="section">
+      <h2>Overview</h2>
+      <p>
+        DARTRIX-PRESENTA is the public presentation layer for the DARTRIX ecosystem.
+        It is built for partner conversations, product demos, and a quick explanation
+        of how the stack turns architecture into practical delivery.
+      </p>
+      <p class="tagline">
+        BeeLab and PASSPORTOS are the core real-world applications.
+      </p>
+    </section>
+    <section id="modules" class="section">
+      <h2>Modules at a glance</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>BeeLab — Bee Health Monitoring</h3>
+          <p>
+            Sensor-driven early warning for colony health, using IoT data capture,
+            analytics, and alerting.
+          </p>
+        </article>
+        <article class="card">
+          <h3>PASSPORTOS — Plant Passport Automation</h3>
+          <p>
+            Automated plant passport generation with ERP-oriented operational support
+            and integration workflows.
+          </p>
+        </article>
+        <article class="card">
+          <h3>NINIA TEAM — Security Monitoring</h3>
+          <p>
+            Monitoring and response concepts for campus or site protection.
+          </p>
+        </article>
+        <article class="card">
+          <h3>DARTRAINUP — Training & Enablement</h3>
+          <p>
+            Structured learning flows and progress tracking for teams.
+          </p>
+        </article>
+        <article class="card">
+          <h3>KARTRIX — Interface Layer</h3>
+          <p>
+            Language and interface layer for human-to-system interaction.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section id="dashboard" class="section">
+      <h2>Status at a glance</h2>
+      <p>
+        The dashboard below is a compact view of the ecosystem. In a live deployment,
+        it can connect to DARTRIX services and operational data.
+      </p>
+      <div class="dashboard-grid">
+        <div class="dash-card">
+          <h3>BeeLab</h3>
+          <p>Status: <span class="status ok">Pilot ready</span></p>
+          <p>Mode: Bee health monitoring and early alerts</p>
+        </div>
+        <div class="dash-card">
+          <h3>PASSPORTOS</h3>
+          <p>Status: <span class="status dev">MVP / ERP integration</span></p>
+          <p>Mode: Plant passport automation</p>
+        </div>
+        <div class="dash-card">
+          <h3>NINIA TEAM</h3>
+          <p>Status: <span class="status concept">Concept and architecture</span></p>
+          <p>Mode: Site security monitoring</p>
+        </div>
+        <div class="dash-card">
+          <h3>DARTRAINUP</h3>
+          <p>Status: <span class="status dev">Learning workflow design</span></p>
+          <p>Mode: Training and enablement</p>
+        </div>
+        <div class="dash-card">
+          <h3>KARTRIX</h3>
+          <p>Status: <span class="status core">Core interface layer</span></p>
+          <p>Mode: Human-to-system interaction</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section">
+      <h2>Partner pitch</h2>
+      <p>
+        DARTRIX combines a clear system architecture with practical applications in
+        agriculture, operations, education, and security. It is designed for pilots,
+        product demos, and implementation conversations.
+      </p>
+      <ul class="pitch-list">
+        <li><strong>Business model:</strong> licenses, deployments, consulting, training.</li>
+        <li><strong>Strength:</strong> architecture, automation, AI, and demo-ready delivery.</li>
+        <li><strong>Best fit:</strong> technical stakeholders and external sales conversations.</li>
+      </ul>
+      <form class="contact-form" action="https://formspree.io/f/lacresso@gmail.com" method="POST">
+        <h3>Zostaw kontakt</h3>
+        <label>
+          Imię i nazwisko
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          E-mail
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Wiadomość
+          <textarea name="message" rows="4" required placeholder="Napisz, w jakim kontekście widzisz współpracę..."></textarea>
+        </label>
+        <button type="submit">Wyślij</button>
+        <p id="contact-status" class="status-msg"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>DARTRIX-PRESENTA v1.0 — project by Daniel Adrian Ratajczyk (KARTRIX).</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
